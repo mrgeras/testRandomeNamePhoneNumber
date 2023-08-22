@@ -1,8 +1,7 @@
-
 import React, { useState, useCallback, useMemo } from 'react';
 import { User } from '../types/typeUser';
 import './GetRandomUser.css';
-import Button from './Button'
+import Button from './Button';
 import UserInfo from './UserInfo';
 
 const URL = 'https://jsonplaceholder.typicode.com/users';
